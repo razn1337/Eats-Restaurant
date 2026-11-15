@@ -77,37 +77,53 @@ header {
 /* section-a */
 
 .section-a {
-  border: 2px solid red;
   text-align: center;
   min-height: 619px;
   width: 100%;
-  background-image: url(../images/bg1.jpg);
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/bg1.jpg);
   background-size: cover;
   background-position: center;
-  padding: 0 24px;
+  padding: 75px 24px 0px;
   color: white;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 1rem;
 }
 
+.section-a h1 {
+    font-family: poppins, sans-serif;
+  font-size: 2.417rem;
+  line-height: 80px;
+  max-width: 20ch;
+}
+
+.section-a-first {
+    font-weight: var(--fw-bold);
+}
+
+.section-a-second {
+  font-weight: var(--fw-medium);
+}
 
 /* section-a-btn */
 .section-a-btn {
+    margin: 30px 0 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 2.5rem;
-
 }
 
 .section-a a {
   display: inline-flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   min-width: 236px;
   min-height: 64px;
   color: white;
