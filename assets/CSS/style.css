@@ -92,19 +92,18 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   gap: 1rem;
 }
 
 .section-a h1 {
-    font-family: poppins, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 2.417rem;
   line-height: 80px;
   max-width: 20ch;
 }
 
 .section-a-first {
-    font-weight: var(--fw-bold);
+  font-weight: var(--fw-bold);
 }
 
 .section-a-second {
@@ -113,7 +112,7 @@ header {
 
 /* section-a-btn */
 .section-a-btn {
-    margin: 30px 0 0;
+  margin: 30px 0 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -138,4 +137,58 @@ header {
 
 .btn-menu {
   border: 1px solid white;
+}
+
+/* section-b */
+.section-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.3rem;
+}
+
+.section-b-h1 {
+  font-size: 1.833rem;
+  font-family: Poppins, sans-serif;
+  font-weight: var(--fw-semibold);
+  text-align: center;
+  margin-top: 55px;
+}
+
+/* section-b-a */
+.section-b-a {
+  max-width: 1200px;
+  min-width: 320px;
+  width: 100%;
+  padding: 0 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.instruction-first {
+    flex: 0 0 auto;
+    max-width: 600px;
+}
+
+.instruction-p-first {
+  color: var(--color-primary);
+  font-weight: var(--fw-bold);
+  line-height: 36px;
+}
+
+.instruction-p-second {
+  font-size: 1.667rem;
+  font-weight: var(--fw-bold);
+  line-height: 57px;
+  max-width: 27ch;
+}
+
+.instruction-p-third {
+  color: #737373;
+  font-weight: var(--fw-medium);
+  line-height: 38px;
+  max-width: 30ch;
 }
