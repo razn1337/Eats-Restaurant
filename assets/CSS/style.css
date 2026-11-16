@@ -282,3 +282,28 @@ header {
   border-radius: 15px;
   font-size: 0.667rem;
 }
+
+/* footer */
+
+footer {
+   min-height: 156px;
+  height: 100%;
+  min-width: 320px;
+  width: 100%;
+  font-size: 0.667rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1200px;
+  padding: 0 24px;
+}
