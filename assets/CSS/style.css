@@ -217,3 +217,68 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+/* section-c */
+
+.section-c {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url(../images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 516px; 
+  height: 100%;
+  text-align: center;
+  padding: 0 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-c h1 {
+  color: white;
+  font-size: 1.667rem;
+}
+
+.section-c p {
+  color: white;
+  font-weight: var(--fw-medium);
+}
+
+.playstore-btn,
+.appstore-btn {
+  color: white;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-c-btn {
+  margin: 30px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 16px;
+  
+}
+
+.playstore-btn {
+  background-color: var(--color-primary);
+  height: 64px;
+  width: 142px;
+  border-radius: 15px;
+  font-size: 0.667rem;
+  
+}
+
+.appstore-btn {
+  border: 1px solid white;
+  height: 64px;
+  min-width: 142px;
+  border-radius: 15px;
+  font-size: 0.667rem;
+}
