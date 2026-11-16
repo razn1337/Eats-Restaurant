@@ -155,7 +155,6 @@ header {
   margin-top: 55px;
 }
 
-/* section-b-a */
 .section-b-a {
   max-width: 1200px;
   min-width: 320px;
@@ -168,18 +167,21 @@ header {
   justify-content: space-between;
 }
 
-.section-b-photo1 {
+.section-b-photo {
   max-width: 250px;
-  max-height: 506.97210693359375; 
+  max-height: 506.97210693359375px; 
   min-width: 125px;
   min-height: 253px;
   width: 100%;
   height: 100%;
 
+  
+
 }
 
+.instruction,
 .instruction-first {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .instruction-p-first {
@@ -200,4 +202,18 @@ header {
   font-weight: var(--fw-medium);
   line-height: 38px;
   max-width: 30ch;
+}
+
+
+.section-b-b {
+   max-width: 1200px;
+  min-width: 320px;
+  width: 100%;
+  padding: 0 24px;
+  margin-bottom: 297px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
